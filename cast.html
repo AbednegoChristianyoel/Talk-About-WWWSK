@@ -1,0 +1,366 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Talk About WWWSK</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous" />
+    <!-- Bootstrap CSS -->
+    <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.2/css/bootstrap.min.css'>
+    <!-- Font Awesome CSS -->
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/login.css">
+  </head>
+  <body>
+    
+    <!--Navbar-->
+    <nav class="navbar navbar-expand-lg navbar-dark shadow-sm" >
+      <div class="container">
+        <a class="navbar-brand me-auto" href="index.html">Talk About WWWSK</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item dropdown">
+              <a class="nav-link active dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                ID/EN
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <li><a class="dropdown-item" href="#">Bahasa Indonesia</a></li>
+                <li><a class="dropdown-item" href="#">English</a></li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" href="cast.html">Pemeran</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" href="index.html">Tentang</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" href="index.html">BTS</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" href="index.html">Kontak</a>
+            </li>
+            <li>
+              <div class="popup">
+                <button type="button" class="btn btn-danger" data-toggle="modal" data-target="#loginModal", style = "font-size: 20px;">
+                  Masuk
+                </button>
+                <div class="modal fade" id="loginModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                  <div class="modal-dialog modal-dialog-centered" role="document">
+                    <div class="modal-content">
+                      <div class="modal-header border-bottom-0">
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                          <span aria-hidden="true">&times;</span>
+                        </button>
+                      </div>
+                      <div class="modal-body">
+                        <div class="form-title text-center">
+                          <h4>Masuk</h4>
+                        </div>
+                        <div class="d-flex flex-column text-center">
+                          <form>
+                            <div class="form-group">
+                              <input type="email" class="form-control" id="email1"placeholder="Masukan Alamat Email Anda...">
+                            </div>
+                            <div class="form-group">
+                              <input type="password" class="form-control" id="password1" placeholder="Masukan Password Anda...">
+                            </div>
+                            <button type="button" class="btn btn-info btn-block">Masuk</button>
+                          </form>
+                          
+                          <div class="text-center text-muted delimiter">- - - - - - - - - - - - - - -  or  - - - - - - - - -- - - - - - - -</div>
+                          <div class="d-flex justify-content-center social-buttons">
+                            <button type="button" class="btn btn-secondary btn-round" data-toggle="tooltip" data-placement="top" title="Twitter">
+                              <i class="fab fa-twitter"></i>
+                            </button>
+                            <button type="button" class="btn btn-secondary btn-round" data-toggle="tooltip" data-placement="top" title="Facebook">
+                              <i class="fab fa-facebook"></i>
+                            </button>
+                            <button type="button" class="btn btn-secondary btn-round" data-toggle="tooltip" data-placement="top" title="Linkedin">
+                              <i class="fab fa-linkedin"></i>
+                            </button>
+                          </di>
+                        </div>
+                      </div>
+                    </div>
+                      <div class="modal-footer d-flex justify-content-center">
+                        <div class="signup-section">Belum Mempunyai Akun? <a href="#a" class="text-info">Buat Akun</a>.</div>
+                      </div>
+                  </div>
+                </div>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!--Akhir Navbar-->
+
+    <!-- Cast -->
+    <div class="container-fluid pt-5 pb-5 bg-light">
+      <div class="container text-center">
+        <h2 class="display-6 pt-4 pb-4" id="cast">Pemeran</h2>
+        <p>Daftar Pemeran Drama What&#39;s Wrong With Secretary Kim</p>
+          <div class="card-deck pt-4">
+            <div class="card">
+              <img class="card-img-top" src="https://akcdn.detik.net.id/visual/2021/06/15/park-seo-joon_169.png?w=650" alt="Card image cap">
+              <div class="card-body">
+                <h5 class="card-title">Park Seo-Joon</h5>
+                <p class="card-text">sebagai<br/> Lee Young-Joon</p>
+                <p class="card-text">Lahir : December 16, 1988</br> IG : <a href=https://www.instagram.com/bn_sj2013>bn_sj2013</a></p>
+              </div>
+            </div>
+            <div class="card">
+              <img class="card-img-top" src="https://cdn.discordapp.com/attachments/940539110723035146/987609405224779786/unknown.png" alt="Card image cap">
+              <div class="card-body">
+                <h5 class="card-title">Park Min-Young</h5>
+                <p class="card-text">sebagai<br/> Kim Mi-So</p>
+                <p class="card-text">Lahir : March 4, 1986</br> IG : <a href=https://www.instagram.com/rachel_mypark/3>rachel_mypark</a></p>
+              </div>
+            </div>
+            <div class="card">
+              <img class="card-img-top" src="https://cdn.discordapp.com/attachments/940539110723035146/987609826144169984/Lee-Tae-Hwan_co-660x400.jpg" alt="Card image cap">
+              <div class="card-body">
+                <h5 class="card-title">Lee Tae-Hwan</h5>
+                <p class="card-text">sebagai<br/> Lee Sung-Yeon</p>
+                <p class="card-text">Lahir : February 21, 1995</br> IG : <a href=https://www.instagram.com/leetaehwan0221>leetaehwan0221</a></p>
+              </div>
+            </div>
+          </div>
+          <div class="card-deck pt-4 pb-4">
+            <div class="card">
+              <img class="card-img-top" src="https://cdn.discordapp.com/attachments/940539110723035146/987612122655629312/misc.jpg" alt="Card image cap">
+              <div class="card-body">
+                <h5 class="card-title">Kang Ki-Young</h5>
+                <p class="card-text">sebagai<br/> Park Yoo-Sik</p>
+                <p class="card-text">Lahir : October 14, 1983</br> IG : - </p>
+              </div>
+            </div>
+            <div class="card">
+              <img class="card-img-top" src="https://cdn.discordapp.com/attachments/940539110723035146/987613272154980402/5e9d01dd37b26.jpg" alt="Card image cap">
+              <div class="card-body">
+                <h5 class="card-title">Pyo Ye-Jin</h5>
+                <p class="card-text">sebagai<br/> Kim Ji-A</p>
+                <p class="card-text">Lahir : 1992</br> IG : <a href=https://www.instagram.com/yjiinp>yjiinp</a></p>
+              </div>
+            </div>
+            <div class="card">
+              <img class="card-img-top" src="https://cdn.discordapp.com/attachments/940539110723035146/987614560469000282/1643081563-4d186690c9bc6bbb533767231af77e4615a23b94r1-1000-500v2-uhq-1-1.jpg" alt="Card image cap">
+              <div class="card-body">
+                <h5 class="card-title">Chansung</h5>
+                <p class="card-text">sebagai<br/>Go Gwi-Nam</p>
+                <p class="card-text">Lahir : February 11, 1990</br> Twitter : <a href=https://twitter.com/2PMagreement211>@2PMagreement211</a></p>
+              </div>
+            </div>
+          </div>
+          <div class="card-deck pt-4 pb-4">
+            <div class="card">
+              <img class="card-img-top" src="https://cdn.discordapp.com/attachments/940539110723035146/987636703546195988/999656414.jpg" alt="Card image cap">
+              <div class="card-body">
+                <h5 class="card-title">Kim Byung-Ok</h5>
+                <p class="card-text">sebagai<br/>CEO Lee</p>
+                <p class="card-text">Lahir : October 11, 1960</br> IG : - </p>
+              </div>
+            </div>
+            <div class="card">
+              <img class="card-img-top" src="https://cdn.discordapp.com/attachments/940539110723035146/987637622417555476/unknown_1.png" alt="Card image cap">
+              <div class="card-body">
+                <h5 class="card-title">Kim Hye-Ok</h5>
+                <p class="card-text">sebagai<br/>Young-Joon's mother</p>
+                <p class="card-text">Lahir : May 9, 1958</br>IG : - </p>
+              </div>
+            </div>
+            <div class="card">
+              <img class="card-img-top" src="https://cdn.discordapp.com/attachments/940539110723035146/987638505020731413/unknown.png" alt="Card image cap">
+              <div class="card-body">
+                <h5 class="card-title">Lee Yoo-Joon</h5>
+                <p class="card-text">sebagai<br/>Jung Chi-In</p>
+                <p class="card-text">Lahir : February 11, 1990</br> IG : <a href=https://www.instagram.com/h2kingman>h2kingman</a></p>
+              </div>
+            </div>
+          </div>
+          <div class="card-deck pt-4 pb-4">
+            <div class="card">
+              <img class="card-img-top" src="https://cdn.discordapp.com/attachments/940539110723035146/987640685027016714/unknown.png" alt="Card image cap">
+              <div class="card-body">
+                <h5 class="card-title">Hwang Bo-Ra</h5>
+                <p class="card-text">sebagai<br/>Bong Se-Ra</p>
+                <p class="card-text">Lahir : October 2, 1983</br> IG : <a href=https://www.instagram.com/pinggumama>pinggumama</a></p>
+              </div>
+            </div>
+            <div class="card">
+              <img class="card-img-top" src="https://cdn.discordapp.com/attachments/940539110723035146/987641291192037446/unknown.png" alt="Card image cap">
+              <div class="card-body">
+                <h5 class="card-title">Lee Jung-Min</h5>
+                <p class="card-text">sebagai<br/>Lee Young-Ok</p>
+                <p class="card-text">Lahir : 1989</br> IG : <a href=https://www.instagram.com/blackpearlbean>blackpearlbean</a></p>
+              </div>
+            </div>
+            <div class="card">
+              <img class="card-img-top" src="https://cdn.discordapp.com/attachments/940539110723035146/987641668985557033/unknown.png" alt="Card image cap">
+              <div class="card-body">
+                <h5 class="card-title">Kim Jung-Woon</h5>
+                <p class="card-text">sebagai<br/>Park Joon-Hwan</p>
+                <p class="card-text">Lahir : December 3, 1981</br> IG : <a href=https://instagram.com/belief_story>belief_story</a></p>
+              </div>
+            </div>
+          </div>
+          <div class="card-deck pt-4 pb-4">
+            <div class="card">
+              <img class="card-img-top" src="https://cdn.discordapp.com/attachments/940539110723035146/987648479486693376/unknown.png" alt="Card image cap">
+              <div class="card-body">
+                <h5 class="card-title">Kang Hong-Suk</h5>
+                <p class="card-text">sebagai<br/>Yang-Cheol</p>
+                <p class="card-text">Lahir : February 11, 1986</br> IG : -</p>
+              </div>
+            </div>
+            <div class="card">
+              <img class="card-img-top" src="https://cdn.discordapp.com/attachments/940539110723035146/987649592483016764/unknown.png" alt="Card image cap">
+              <div class="card-body">
+                <h5 class="card-title">Baek Eun-Hye</h5>
+                <p class="card-text">sebagai<br/>Kim Pil-Nam</p>
+                <p class="card-text">Lahir : September 1, 1986</br> IG : -</p>
+              </div>
+            </div>
+            <div class="card">
+              <img class="card-img-top" src="https://cdn.discordapp.com/attachments/940539110723035146/987650342260977664/Heo_Soon-Mi-1985-p1.jpeg" alt="Card image cap">
+              <div class="card-body">
+                <h5 class="card-title">Heo Soon-Mi</h5>
+                <p class="card-text">sebagai<br/>Mal-Hee</p>
+                <p class="card-text">Lahir : October 7, 1985</br> IG : <a href=https://instagram.com/actor_soonmi>actor_soonmi</a></p>
+              </div>
+            </div>
+          </div>
+          <div class="card-deck pt-4 pb-4">
+            <div class="card">
+              <img class="card-img-top" src="https://cdn.discordapp.com/attachments/940539110723035146/987650739000213525/unknown.png" alt="Card image cap">
+              <div class="card-body">
+                <h5 class="card-title">Kim Ye-Won</h5>
+                <p class="card-text">sebagai<br/>Seol Ma-Eum</p>
+                <p class="card-text">Lahir : December 5, 1989</br> IG : <a href=https://www.instagram.com/yeeee_kk>yeeee_kk</a></p>
+              </div>
+            </div>
+            <div class="card">
+              <img class="card-img-top" src="https://cdn.discordapp.com/attachments/940539110723035146/987651219612909598/unknown.png" alt="Card image cap">
+              <div class="card-body">
+                <h5 class="card-title">Hong Ji-Yoon</h5>
+                <p class="card-text">sebagai<br/>Oh Ji-Ran</p>
+                <p class="card-text">Lahir : March 3, 1991</br> IG : <a href=https://www.instagram.com/ziyooni>ziyooni</a></p>
+              </div>
+            </div>
+            <div class="card">
+              <img class="card-img-top" src="https://cdn.discordapp.com/attachments/940539110723035146/987651726771388456/unknown.png" alt="Card image cap">
+              <div class="card-body">
+                <h5 class="card-title">Park Byung-Eun</h5>
+                <p class="card-text">sebagai<br/>Park Byung-Eun (ep.3)</p>
+                <p class="card-text">Lahir : 1977</br> IG : <a href=https://instagram.com/byung_eun_park>byung_eun_park</a></p>
+              </div>
+            </div>
+          </div>
+          <div class="card-deck pt-4 pb-4">
+            <div class="card">
+              <img class="card-img-top" src="https://cdn.discordapp.com/attachments/940539110723035146/987661305290846218/Kim_Hyun-Joo-1995-p1.jpg" alt="Card image cap">
+              <div class="card-body">
+                <h5 class="card-title">Kim Hyun-Joo</h5>
+                <p class="card-text">sebagai<br/>Wanita Menerima Topi di Pesawat (ep.3)</p>
+                <p class="card-text">Lahir : May 16, 1995</br> IG : -</p>
+              </div>
+            </div>
+            <div class="card">
+              <img class="card-img-top" src="https://cdn.discordapp.com/attachments/940539110723035146/987662165068619826/unknown.png" alt="Card image cap">
+              <div class="card-body">
+                <h5 class="card-title">Lee Min-Ki</h5>
+                <p class="card-text">sebagai<br/>Ayah Kim Mi-So (ep.10)</p>
+                <p class="card-text">Lahir : January 16, 1985</br> IG : -</p>
+              </div>
+            </div>
+            <div class="card">
+              <img class="card-img-top" src="https://cdn.discordapp.com/attachments/940539110723035146/987661974592700426/unknown.png" alt="Card image cap">
+              <div class="card-body">
+                <h5 class="card-title">Jung So-Min</h5>
+                <p class="card-text">sebagai<br>Ibu Kim Mi-So</p>
+                <p class="card-text">Lahir : March 16, 1989</br> IG : <a href=https://instagram.com/somin_jj>somin_jj</a></p>
+              </div>
+            </div>
+          </div>
+          <div class="card-deck pt-4 pb-4">
+            <div class="card">
+              <img class="card-img-top" src="https://cdn.discordapp.com/attachments/940539110723035146/987663155041828884/unknown.png" alt="Card image cap">
+              <div class="card-body">
+                <h5 class="card-title">Ko Se-Won</h5>
+                <p class="card-text">sebagai<br>CEO Lee (Muda - ep.8)</p>
+                <p class="card-text">Lahir : December 13, 1979<br> IG : -</p>
+              </div>
+            </div>
+            <div class="card">
+              <img class="card-img-top" src="https://cdn.discordapp.com/attachments/940539110723035146/987663865741455390/unknown.png" alt="Card image cap">
+              <div class="card-body">
+                <h5 class="card-title">Lee Soo-Kyung</h5>
+                <p class="card-text">sebagai<br/>Ibu Young-Joon (muda - ep.8)</p>
+                <p class="card-text">Lahir : March 13, 1982</br> IG : -</p>
+              </div>
+            </div>
+            <div class="card">
+              <img class="card-img-top" src="https://cdn.discordapp.com/attachments/940539110723035146/987664232986320906/unknown.png" alt="Card image cap">
+              <div class="card-body">
+                <h5 class="card-title">Jung Yu-Mi</h5>
+                <p class="card-text">sebagai<br/>Teman Young-Joon(ep.14)</p>
+                <p class="card-text">Lahir : January 18, 1983</br> IG : -</p>
+              </div>
+            </div>
+          </div>
+          <div class="card-deck pt-4 pb-4">
+            <div class="card">
+              <img class="card-img-top" src="https://cdn.discordapp.com/attachments/940539110723035146/987665694197964821/unknown.png" alt="Card image cap">
+              <div class="card-body">
+                <h5 class="card-title">Moon Woo-Jin</h5>
+                <p class="card-text">sebagai<br/>Lee Young-Joon (anak)</p>
+                <p class="card-text">Lahir : February 19, 2009</br> IG : <a href=https://instagram.com/mwj_mom>mwj_mom</a></p>
+              </div>
+            </div>
+            <div class="card">
+              <img class="card-img-top" src="https://cdn.discordapp.com/attachments/940539110723035146/987665124758265876/Kim_Ji-Yu-2012-p1.jpg" alt="Card image cap">
+              <div class="card-body">
+                <h5 class="card-title">Kim Ji-Yu</h5>
+                <p class="card-text">sebagai<br/>Kim Mi-So (child)</p>
+                <p class="card-text">Lahir : September 26, 2012</br> IG :<a href=https://instagram.com/kim_jiyu__>kim_jiyu__</a></p>
+              </div>
+            </div>
+            <div class="card">
+              <img class="card-img-top" src="https://cdn.discordapp.com/attachments/940539110723035146/987666856305373194/download_1.jpg" alt="Card image cap">
+              <div class="card-body">
+                <h5 class="card-title">Bae Gang-Yoo</h5>
+                <p class="card-text">sebagai<br/>Lee Sung-Yeon (anak)</p>
+                <p class="card-text">Lahir : January 28, 2007</br> IG : -</p>
+              </div>
+            </div>
+          </div>
+        </div>  
+      </div> 
+
+       <!-- Footer -->
+      <footer class="d-flex flex-wrap justify-content-between align-items-center py-4  border-top" id="footer">
+        <p class="col-md-4 mb-0 text-active text-white">© 2022 Talk About WWWSK</p>
+    
+        <ul class="nav col-md-5 justify-content-end">
+          <li class="nav-item"><a href="index.html" class="nav-link active px-2 text-white">Home</a></li>
+          <li class="nav-item"><a href="#" class="nav-link active px-2 text-white">Pemeran</a></li>
+          <li class="nav-item"><a href="index.html" class="nav-link active px-2 text-white">Tentang</a></li>
+          <li class="nav-item"><a href="index.html" class="nav-link active px-2 text-white">Kontak</a></li>
+        </ul>
+      </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js" integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf" crossorigin="anonymous"></script>
+    <script src='https://code.jquery.com/jquery-3.3.1.slim.min.js'></script>
+    <!-- Popper JS -->
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js'></script>
+    <!-- Bootstrap JS -->
+    <script src='https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js'></script>
+  </body>
+</html>

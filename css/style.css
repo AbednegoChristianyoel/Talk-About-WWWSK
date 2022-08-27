@@ -1,0 +1,123 @@
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+.banner {
+  background: url("https://cdn.discordapp.com/attachments/940539110723035146/979993278889992212/wwsk.jpg") no-repeat center center;
+  background-size: cover;
+  padding-top: 15%;
+  padding-bottom: 15%;
+  color: white;
+}
+nav {
+  font-family: "Roboto", sans-serif;
+  background-color: #27324e;
+  font-size: 20px;
+}
+
+a.navbar-brand {
+  font-size: 32px;
+}
+
+.nav-link {
+  color: #fff;
+  margin-right: 25px;
+}
+
+.btn-danger {
+  background-color: #ff4949 !important;
+}
+
+a.dropdown-item {
+  color: #27324e;
+  background-color: White;
+}
+
+.dropdown-menu {
+  font-size: 20px;
+  margin-top: 50px;
+}
+
+.btn-danger {
+  background-color: #ff4949 !important;
+}
+
+.popup {
+  margin-left: -5px;
+}
+
+.wrapper {
+  width: 1100px;
+  margin: auto;
+  position: relative;
+}
+
+p[class="txtkonten"] {
+  text-align: justify;
+}
+
+section {
+  margin-bottom: 0px;
+  display: flex;
+}
+
+section img {
+  width: 450px;
+  height: 350px;
+  margin: 50px 20px 0px 0px;
+}
+
+.kolom {
+  margin-top: 10px;
+}
+
+.tengah {
+  text-align: center;
+  width: 100%;
+}
+.display-6 {
+  font-weight: 600;
+}
+
+.display-1 {
+  font-weight: 600;
+}
+
+.lingkaran {
+  display: inline-block;
+  border-radius: 50%;
+  width: 150px;
+  margin: auto;
+  height: 150px;
+  color: #fff;
+  background-color: #ff4949;
+}
+
+.lingkaran i {
+  position: relative;
+  top: 30px;
+}
+
+.crop-img {
+  object-fit: cover;
+}
+
+.tim img {
+  width: 250px;
+  border: 10px solid #cccccc;
+}
+
+a {
+  color: #ff4949;
+}
+
+footer {
+  background-color: #27324e;
+  padding-left: 175px;
+  padding-right: 175px;
+}
+
+html,
+body {
+  overflow-x: hidden;
+}

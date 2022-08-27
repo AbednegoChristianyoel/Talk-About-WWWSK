@@ -1,0 +1,384 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Talk About WWWSK</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous" />
+    <!-- Bootstrap CSS -->
+    <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.2/css/bootstrap.min.css'>
+    <!-- Font Awesome CSS -->
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/login.css">
+  </head>
+  <body>
+    
+    <!--Navbar-->
+    <nav class="navbar navbar-expand-lg navbar-dark shadow-sm" >
+      <div class="container">
+        <a class="navbar-brand me-auto" href="index.html">Talk About WWWSK</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item dropdown">
+              <a class="nav-link active dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                ID/EN
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <li><a class="dropdown-item" href="#">Bahasa Indonesia</a></li>
+                <li><a class="dropdown-item" href="#">English</a></li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" href="cast.html">Pemeran</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" href="#about">Tentang</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" href="#bts">BTS</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" href="#contact">Kontak</a>
+            </li>
+            <li>
+              <div class="popup">
+                <button type="button" class="btn btn-danger" data-toggle="modal" data-target="#loginModal", style = "font-size: 20px;">
+                  Masuk
+                </button>
+                <div class="modal fade" id="loginModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                  <div class="modal-dialog modal-dialog-centered" role="document">
+                    <div class="modal-content">
+                      <div class="modal-header border-bottom-0">
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                          <span aria-hidden="true">&times;</span>
+                        </button>
+                      </div>
+                      <div class="modal-body">
+                        <div class="form-title text-center">
+                          <h4>Masuk</h4>
+                        </div>
+                        <div class="d-flex flex-column text-center">
+                          <form>
+                            <div class="form-group">
+                              <input type="email" class="form-control" id="email1"placeholder="Masukan Alamat Email Anda...">
+                            </div>
+                            <div class="form-group">
+                              <input type="password" class="form-control" id="password1" placeholder="Masukan Password Anda...">
+                            </div>
+                            <button type="button" class="btn btn-info btn-block">Masuk</button>
+                          </form>
+                          
+                          <div class="text-center text-muted delimiter">- - - - - - - - - - - - - - -  or  - - - - - - - - -- - - - - - - -</div>
+                          <div class="d-flex justify-content-center social-buttons">
+                            <button type="button" class="btn btn-secondary btn-round" data-toggle="tooltip" data-placement="top" title="Twitter">
+                              <i class="fab fa-twitter"></i>
+                            </button>
+                            <button type="button" class="btn btn-secondary btn-round" data-toggle="tooltip" data-placement="top" title="Facebook">
+                              <i class="fab fa-facebook"></i>
+                            </button>
+                            <button type="button" class="btn btn-secondary btn-round" data-toggle="tooltip" data-placement="top" title="Linkedin">
+                              <i class="fab fa-linkedin"></i>
+                            </button>
+                          </di>
+                        </div>
+                      </div>
+                    </div>
+                      <div class="modal-footer d-flex justify-content-center">
+                        <div class="signup-section">Belum Mempunyai Akun? <a href="#a" class="text-info">Buat Akun</a>.</div>
+                      </div>
+                  </div>
+                </div>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!--Akhir Navbar-->
+
+    <!-- banner -->
+    <div class="container-fluid banner">
+      <div class="container text-center">
+        <h4 class="display-7">KENAPA HARUS NONTON</h4>
+        <h3 class="display-2 fw-bold">WHAT'S WRONG WITH SECRETARY KIM</h3>
+          <a href="#content" class="btn btn-danger active" role="button" aria-pressed="true">Mulai</a>
+      </div>
+    </div>
+
+    <!-- Content -->
+    <div class="container-fluid pt-4 pb-4 bg-light" id="content">
+      <div class="container">
+        <h1 class="display-6 text-center pt-4 fw-bold">Alasan Harus Nonton What's Wrong With Secretary Kim</h1>
+      </div>
+    </div>
+
+    <div class="container-fluid pt-4 pb-4 bg-light">
+      <div class="container">
+        <h3 class="display-7 text-center" id="5reason">1. Memperlihatkan Dunia Perkantoran Yang Tidak Menjenuhkan</h3>
+        <div class="clearfix pt-4">
+          <img src="https://cdn.discordapp.com/attachments/940539110723035146/980004350355202078/4624335.jpg" class="col-md-6 float-md-end mb-7 crop-img" width="200" height="350" style="margin-left: 20px;" />
+          <p class="txtkonten">
+            Banyak orang yang sering memiliki pikiran bahwa kata “kantor” adalah sebuah bayangan yang menjenuhkan, banyak tugas menumpuk atau bos yang suka mengatur. 
+            Tetapi dalam drama ini perspektif yang ditunjukkan adalah bahwa dunia perkantoran tidak se-membosankan itu. 
+            Dunia perkantoran yang akan ditunjukkan dalam drama ini penuh warna, menyenangkan dan bisa memberikan kisah manis dalam hidup. 
+            Mungkin masih banyak juga lingkungan kantor yang tidak terlihat ramah seperti dalam drama ini. 
+            Oleh karena itu drama ini memberikan pandangan baru untuk Viuers bahwa lingkungan kerja masih ada yang menyenangkan dan penuh warna seperti ini di dunia nyata.
+          </p>
+        </div>
+      </div>
+    </div>
+    
+    <div class="container-fluid pt-4 pb-4 bg-light">
+      <div class="container">
+        <h3 class="display-7 text-center" id="5reason">2. Komedi Romantis Yang Tidak Rumit</h3>
+        <div class="clearfix pt-4">
+          <img src="https://cdn.discordapp.com/attachments/940539110723035146/980006612049747988/4624289.jpg" class="col-md-6 float-md-start mb-7 crop-img" width="200" height="350" style="margin-right: 30px;" />
+          <p class="txtkonten">
+            Komedi romantis yang terjadi dalam drama ini tidak lah rumit untuk dipahami. 
+            Sehingga momen-momen penting yang terjadi dalam drama What&#39;s Wrong With Secretary Kim bisa dinikmati oleh penonton tanpa harus banyak berpikir. 
+            Konflik yang tidak terlalu banyak dan serius juga yang mendorong kisah dalam drama ini tidak merepotkan. 
+            Kisah asmara antara sekretaris dan bos yang lucu dan membuat penonton merasa iri akan banyak diperlihatkan dalam drama ini. 
+            Akting yang baik dari setiap pemeran yang ada, mendorong kualitas dari drama ini ke tempat yang sangat bagus dan sangatlah cocok untuk dinikmati selagi masa pandemi ini yang mungkin membuat penonton karena selalu berada di rumah.
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <div class="container-fluid pt-4 pb-4 bg-light">
+      <div class="container">
+        <h3 class="display-7 text-center" id="5reason">3. Konflik Yang Cukup Dalam Pada Tokoh Utama</h3>
+        <div class="clearfix pt-4">
+          <img src="https://cdn.discordapp.com/attachments/940539110723035146/980017128755298404/4624343.jpg" class="col-md-6 float-md-end mb-7 crop-img" width="200" height="350" style="margin-left: 30px;" />
+          <p class="txtkonten">
+            Fokus konflik yang akan dialami pada tokoh utama dalam drama ini adalah untuk melawan masa lalu yang pernah mereka lewati bersama, 
+            sebuah masa lalu yang cukup mengerikan dari sebuah kejadian yang mereka alami bersama saat mereka masih anak-anak. 
+            Yang memberikan bekas luka cukup dalam bagi kedua tokoh utama dalam drama ini.
+          <br>
+          <br>
+            Konflik batin akan terjadi kepada kedua tokoh dalam drama ini, 
+            apakah mereka bisa melupakan kejadian traumatis dari masa lalu mereka atau tidak. 
+            Di mana perjuangan mereka berdua untuk mencari tahu rahasia dari masa lalu kelam mereka yang sempat mereka lupakan karena suatu hal. 
+            Konflik ini lah yang akan membuat penonton semakin tertarik dan tidak bosan untuk mengikuti drama ini.
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <div class="container-fluid pt-4 pb-4 bg-light">
+      <div class="container">
+        <h3 class="display-7 text-center" id="5reason">4. Komedi Menyegarkan Dalam Dunia Perkantoran</h3>
+        <div class="clearfix pt-4">
+          <img src="https://cdn.discordapp.com/attachments/940539110723035146/980017706449383434/SecretaryKim15-00208.jpg" class="col-md-6 float-md-start mb-7 crop-img" width="200" height="350" style="margin-right: 30px;" />
+          <p class="txtkonten">
+            Akan ada banyak kejadian penuh gelak tawa yang bisa membuat penonton gembira dalam drama What&#39;s Wrong With Secretary Kim ini. 
+            Terutama berkat dari salah satu pemeran utama dalam drama ini yang akan menjadi sahabat Lee Young Joon dan rekan kerjanya yaitu, 
+            Park Yoo Sik diperankan oleh Kang Ki Young. 
+            Adegan lucu yang diperlihatkan olehnya seperti memberi saran percintaan yang humoris pada Lee Young Joon dan tingkahnya yang konyol ketika sedang berada di kantor akan membuat penonton tertawa dibuatnya. 
+            Berkat peran yang baik dari setiap tokoh utama, drama ini menjadi semakin terlihat berwarna dan menyenangkan.
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <div class="container-fluid pt-4 pb-4 bg-light">
+      <div class="container">
+        <h3 class="display-7 text-center" id="5reason">5. Romantisme Dewasa Yang Akan Membuat Penonton Berdebar-debar</h3>
+        <div class="clearfix pt-4 pb-5">
+          <img src="https://media.discordapp.net/attachments/940539110723035146/980016450225995856/4624331.png?width=1178&height=662" class="col-md-6 float-md-end mb-7 crop-img" width="200" height="350" style="margin-left: 30px;" />
+          <p class="txtkonten">
+            Kejadian romantis yang akan terjadi diantara bos dan sekretaris yang pasti akan membuat penonton berdebar-debar jelas akan tersaji cukup banyak dalam drama ini. 
+            Berkat hubungan baik yang dibangun oleh kedua tokoh utama yaitu Lee Young Joon dan Kim Mi So. 
+            Adegan romantis mereka terlihat sangat bagus bagi para penonton, 
+            karena banyak adegan ini juga para penonton saling menjodohkan mereka berdua sebagai sepasang kekasih dan untuk bisa segera menikah secara betulan di dunia nyata. 
+            Karena banyak penonton dari drama ini yang memiliki pemikiran bahwa mereka berdua adalah 	&quot;pasangan ideal&quot;.
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Tentang -->
+    <div class="container-fluid pt-4 pb-4" id="about">
+      <div class="container">
+        <h2 class="display-6 pb-4 pt-4 text-center">Tentang</h2>
+        <h3 class="text-center">
+          Sinopsis Drama Korea What&#39;s Wrong With Secretary Kim
+        </h3>
+        <div class="clearfix pt-4 pb-4">
+          <img
+            src="https://media.discordapp.net/attachments/940539110723035146/982892287552024596/park-seo-joon-lee-young-joon-dan-park-min-young-kim-mi-so.jpg"
+            class="col-md-6 float-md-end mb-3 crop-img"
+            width="300"
+            height="300"
+            style="margin-left: 30px;"
+          />
+          <p class="txtkonten">
+            Drama Korea What&#39;s Wrong With Secretary Kim mengisahkan Lee Young Joon (diperankan oleh Park Seo Joon) adalah wakil pimpinan dari sebuah perusahaan besar. 
+            Dunianya terguncang ketika suatu hari, sekretarisnya yang sangat cakap, Kim Mi So (diperankan oleh Park Min Young), 
+            mengumumkan bahwa dia akan mengundurkan diri dari posisinya setelah bekerja untuk Lee Young Joon selama sembilan tahun.
+
+            Lee Young Joon kemudian memutuskan untuk melakukan apa pun yang dia bisa setelah berbicara dengan sahabatnya, 
+            yang kebetulan menjadi direktur dewan di perusahaannya, untuk memastikan Kim Mi So tetap di sisinya.
+            
+            Sepanjang perjalanan, Lee Young Joon merencanakan banyak hal sementara Kim Mi So memutuskan untuk menemukan pria yang sukar diidentifikasi dari pengalaman traumatis masa lalu yang menjadi bagiannya ketika dia masih kecil. 
+            Kim Mi So jatuh cinta pada Lee Young Joon saat mereka saling menyembuhkan dari pengalaman traumatis masa lalu mereka diculik.
+          </p>
+        </div>
+        <div id="detail">
+          <h3 class="text-center pb-4">
+            Detail Drama Korea What&#39;s Wrong With Secretary Kim
+          </h3>
+          <p class="txtkonten"><b>Drama:</b> What's Wrong With Secretary Kim (English title) / Why Secretary Kim (literal title)<br>
+          <b>Romanisasi yang direvisi:</b> Kimbiseoga Wae Geureolgga<br>
+          <b>Hangul:</b> 김비서가 왜 그럴까<br>
+          <b>Sutradara:</b> Park Joon-Hwa, Yoo Jong-Sun<br>
+          <b>Penulis:</b> Jung Kyung-Yoon (novel), Jung Eun-Young<br>
+          <b>Jaringan:</b> tvN<br>
+          <b>Episode:</b> 16<br>
+          <b>Tanggal Rilis:</b> June 6 - July 26, 2018<br>
+          <b>Waktu Tayang:</b> Wed. &amp; Thu. 21:30<br>
+          <b>Bahasa:</b> Korean<br>
+          <b>Negara:</b> South Korea</p>
+        </div>
+      </div>
+    </div> 
+    
+    <!-- Behind The Scene -->
+    <div class="container-fluid pt-4 pb-4 bg-light">
+      <div class="container text-center">
+        <h2 class="display-6 pb-4 pt-4 text-center" id="bts">Behind The Scenes</h2>
+        <h3>
+          Video Behind The Scenes Pembuatan Drama WWWSK
+        </h3>
+        <a href="https://www.youtube.com/playlist?list=PL2cS3k8RIpyv9gfciw3S2Nf_AToqmeSot">
+          Full Playlist : https://www.youtube.com/playlist?list=PL2cS3k8RIpyv9gfciw3S2Nf_AToqmeSot
+        </a>
+
+        <div class="row pt-5 gx-4 gy-4">
+          <div class="col-md-4">
+            <div class="card crop-img">
+              <iframe src="https://www.youtube.com/embed/r2PDW9a9QTk" width="348" height="200"></iframe>
+              <div class="card-body">
+                <h5 class="card-title">Whats wrong with secretary kim DRAMA MAKING FILM
+                </h5>
+                <p class="card-text">
+                  Tayang: Setiap [Rabu] 21:30 tvN
+                  Pemeran: Park Seo-joon, Park Min-young, Lee Tae-hwan, dll.
+                  Disutradarai oleh: Park Jun-hwa (Ini adalah kehidupan pertamaku, ayo makan, dll.)
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-4">
+            <div class="card crop-img">
+              <iframe src="https://www.youtube.com/embed/6r7NzIaSWi4" width="348" height="200"></iframe>
+              <div class="card-body">
+                <h5 class="card-title">Whats wrong with secretary kim Behind The Scene 180613 EP.3
+                </h5>
+                <p class="card-text">
+                  Ada apa dengan sekretaris kim [Membuat] Ketegangan 'berdebar' meledak! Behind the tie & karaoke scene♥ 180613 EP.3
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-4">
+            <div class="card crop-img">
+              <iframe src="https://www.youtube.com/embed/PLqXRILKXx0" width="348" height="200"></iframe>
+              <div class="card-body">
+                <h5 class="card-title">Whats wrong with secretary kim Behind The Scene 180620 EP.5
+                </h5>
+                <p class="card-text">
+                  Ada apa dengan sekretaris kim [Membuat] Darurat! Youngjun (+penonton) Tepat sebelum serangan jantung! kaki Obsesi Tonkatsu 180620 EP.5
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-4">
+            <div class="card crop-img">
+              <iframe src="https://www.youtube.com/embed/usmjRKCF6_Y" width="348" height="200"></iframe>
+              <div class="card-body">
+                <h5 class="card-title">Whats wrong with secretary kim Behind The Scene 180627 EP.7
+                </h5>
+                <p class="card-text">
+                  Apa yang salah dengan sekretaris kim [Membuat] 'Bagaimana saya melakukan ini ' Grup melihat adegan cinta! (Oh My Mom) 180627 EP.7
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-4">
+            <div class="card crop-img">
+              <iframe src="https://www.youtube.com/embed/3tE97ggivfI" width="348" height="200"></iframe>
+              <div class="card-body">
+                <h5 class="card-title">Whats wrong with secretary kim Behind The Scene 180711 EP.11
+                </h5>
+                <p class="card-text">
+                  Apa yang salah dengan sekretaris kim [Membuat] Saya ingin menjadi lemari pakaian tersenyum hanya untuk satu hari Ubebe♪ 180711 EP.11
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-4">
+            <div class="card crop-img">
+              <iframe src="https://www.youtube.com/embed/fsnOvOuxjiw" width="348" height="200"></iframe>
+              <div class="card-body">
+                <h5 class="card-title">Whats wrong with secretary kim Behind The Scene 180726 EP.16
+                </h5>
+                <p class="card-text">
+                  Ada apa dengan sekretaris kim [Membuat] Bahagia selamanya♥ Halo, Sekretaris Kim kita semua! 180726 EP.16
+                </p>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+
+    <!-- contact -->
+    <div class="container-fluid pt-4 pb-4" id="contact">
+      <div class="container text-center">
+        <h2 class="display-6 pt-4 pb-3">Kontak</h2>
+        <p>Mahasiswa UPN Veteran Jakarta - Jurusan S-1 Informatika 2020</p>
+        <div class="row pt-3 gx-4 gy-4">
+          <div class="col text-center tim">
+            <img src="https://cdn.discordapp.com/attachments/940539110723035146/987625403583692850/1642618132007.png" class="mb-3" />
+            <h4 class="pb-2 pt-2"><b>Abednego C.R.</b></h4>
+            <p><b>Email</b></p>
+            <p>2010511042@mahasiswa.upnvj.ac.id</p>
+            <p><b>No. Telepon</b></p>
+            <p>087820770002</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+     <!-- Footer -->
+    <footer class="d-flex flex-wrap justify-content-between align-items-center py-4  border-top" id="footer">
+    <p class="col-md-4 mb-0 text-active text-white">© 2022 Talk About WWWSK</p>
+
+    <ul class="nav col-md-5 justify-content-end">
+      <li class="nav-item"><a href="#" class="nav-link active px-2 text-white">Home</a></li>
+      <li class="nav-item"><a href="cast.html" class="nav-link active px-2 text-white">Pemeran</a></li>
+      <li class="nav-item"><a href="#about" class="nav-link active px-2 text-white">Tentang</a></li>
+      <li class="nav-item"><a href="#contact" class="nav-link active px-2 text-white">Kontak</a></li>
+    </ul>
+    </footer>
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js" integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf" crossorigin="anonymous"></script>
+    <script src='https://code.jquery.com/jquery-3.3.1.slim.min.js'></script>
+    <!-- Popper JS -->
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js'></script>
+    <!-- Bootstrap JS -->
+    <script src='https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js'></script>
+  </body>
+</html>
